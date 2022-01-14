@@ -1,0 +1,113 @@
+<html>
+<script type = "text/javascript">
+function validateform()
+{  
+var name=document.myform.name.value;  
+var add=document.myform.address.value;  
+var name=document.myform.name.value;  
+var add=document.myform.address.value;
+var no=document.myform.num.value;  
+var mail=document.myform.mail.value;    
+var pro=document.myform.pd.value;  
+var qty=document.myform.pq.value;  
+var price=document.myform.pp.value;
+var ddres=document.myform.bd.value;
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(add==null || add==""){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+}
+</script>
+<style>
+body{background-color: hsla(0,20%,90%,0.3);}
+pre{
+font-family: "Verdana";
+font-size: 17px;
+color: black;
+}
+input.mes{
+padding: 30px 20px;
+}
+center{
+font-family: "Verdana";
+font-size: 30px;
+color: black;
+}
+input[type=button]{background-color: lightblue;}
+</style>
+
+<center>ENQUIRY FORM</center>
+           
+<pre>
+<form name="myform" method="post">
+CONTACT DETAILS:
+Name*                                                                                                                
+<input type="text" name="name">                                                     
+
+Address*
+<input type="text" name="address">
+
+Email*
+<input type="email" name="mail">
+
+Telephone*  
+<input type="number" name="num">
+
+PRODUCT DETAILS
+Product Name*  
+<input type="text" name="pd">
+
+Product Qty*
+<input type="number" name="pq">
+
+Product Price*
+<input type="text" name="pp">
+
+METHOD OF PAYMENT:
+<input type="radio" name="paid">COD
+
+<input type="radio" name="paid">CARD
+
+NAME:<input type="text" name"owner">  CCV:<input type="text" name="ccv">
+CARD NO:<input type="text" name="n">
+</pre>
+EXPIRY DATE:
+<select>                                   
+                    <option>01</option>    
+                    <option>02</option>    
+                    <option>03</option>    
+                    <option>04</option>    
+                    <option>05</option>    
+                    <option>06</option>    
+                    <option>07</option>    
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    </select>
+<select>
+                    <option value="16"> 2016</option>
+                    <option value="17"> 2017</option>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+</select>
+<pre>
+DELIVERY ADDRESS:
+
+Billing Address:
+<input type="text" name="bd">
+
+Delivery Address:
+<input type="text">                                                 
+
+
+<input type="button" onclick="validateform()"  value="SUBMIT"> 
+</pre>
+
+</body>
+</html>

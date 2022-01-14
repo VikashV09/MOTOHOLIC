@@ -1,0 +1,84 @@
+<html>
+<head>
+<script>
+function validate()
+{
+var rev=document.myform.review.value;
+if (rev==null || rev==""){
+alert("Review cant be blank");
+}
+else{
+alert("THANKS FOR THE REVIEW");
+}
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+input.review{
+height: 150px;
+width: 300px;
+}
+div{  
+    text-align: center;   
+    padding: 100px 50px;  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<center>
+<h1><u><i>Connect with us</i></u></h1>
+<br>
+<b>Our social medias are been handeled by the "Bike"</b>
+<br>
+<br>
+<a href="." class="fa fa-facebook"></a>
+<a href="https://twitter.com/bikemag?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com/results?search_query=bike+magazine" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/bikemag/?hl=en" class="fa fa-instagram"></a>
+</center>
+<pre>
+<form name="myform" method="post" onsubmit="validate()">
+
+                                                                     <i><b>REVIEW:</b></i>
+
+
+                                                                     <input type="text" name="review" class="review" placeholder="write a review">
+
+                                                                     <input type="submit" value="SUBMIT">
+      
+</body>
+</html> 

@@ -1,0 +1,59 @@
+<html>
+<style>
+form{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 1px;  
+    margin: 120px auto;  
+    padding: 50px;  
+}
+</style> 
+<script>
+function validateform()
+{  
+var name=document.myform.nam.value;  
+var add=document.myform.pas.value;  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(add==null || add==""){  
+  alert("Password cant be empty and enter the correct password.");  
+  return false;  
+}
+else{alert("LOGIN SUCCESSFULL");}
+}
+</script>
+<style>
+body{background-image:url();}
+pre{
+font-family: "Verdana";
+font-size: 17px;
+color: black;
+}
+input{
+color: black;
+background: white;
+padding: 8px 10px;
+}
+input[type=submit]{
+color: black;
+background: white;
+padding: 8px 10px;
+text-decoration: none;
+}
+
+</style>
+<body>
+<pre>
+<form name="myform" method="get"  onsubmit="return validateform()" action="file:///C:/Users/subaash/Desktop/web/validation.html">
+                   USER NAME
+             <input type="text" name="nam">
+ 
+                   PASSWORD
+             <input type="password" name="pas">
+
+                      <input type="submit" value="LOGIN">
+</form>
+</pre>
+</body>
+</html>
