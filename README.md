@@ -1,4 +1,5 @@
 # MOTOHOLIC
+<pre>
 MOTHOLIC is a company that sells the imported bike of all world 
 class brands. 
 • In this website the user could checkout their dream bikes under the 
@@ -17,10 +18,9 @@ clicking in the map.
 • The Sign-up details and the Td details and the reviews will be stored 
 in the database for the server-side purpose.
 
-
-
 This website is designed using:
 ➢ HTML
 ➢ CSS
 ➢ JAVASCRIPT
 ➢ PHP
+</pre>
