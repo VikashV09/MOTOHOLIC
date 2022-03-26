@@ -2,6 +2,7 @@
 <pre>
 MOTHOLIC is a company that sells the imported bike of all world 
 class brands. 
+
 • In this website the user could checkout their dream bikes under the 
 collection tab.
 • This website also allows the user to test ride their dream bike,
